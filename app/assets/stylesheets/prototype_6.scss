@@ -1,0 +1,358 @@
+@font-face {
+  font-family: ProximaNova;
+  src: font-url('ProximaNova-Regular') format('opentype');
+}
+
+body {
+  // background-image: image-url('back.jpg');
+  background-color: #E1E1E1;
+}
+
+h1 {
+  font-family: ProximaNova-Regular;
+  position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 80px;
+    letter-spacing: -2px;
+    margin-top: 10vh;
+}
+
+
+
+.downloadButton {
+  font-family: ProximaNova-Regular;
+  width: 200px;
+  height: 30px;
+
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+  padding: 20px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: -6vh;
+  order: 3;
+
+  background: black;
+  color: white;
+  border-radius: 600px;
+
+
+}
+
+.downloadButton:hover {
+  background: #282828;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.prototype_6 {
+
+
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+  // order: 1;
+  overflow: hidden;
+
+
+  .frame {
+    margin-top: 10vh;
+    border-radius: 10px;
+    position: relative;
+    width: 512px;
+    height: 512px;
+    // margin: auto;
+    overflow: hidden;
+
+    .circle {
+      position: absolute;
+      background-size: cover;
+
+      &.Bubble01-400 {
+        background-image: image-url('Bubble01-400.svg');
+      }
+
+      &.Bubble02-400 {
+        background-image: image-url('Bubble02-400.svg');
+      }
+
+      &.Ellipse01-400 {
+        background-image: image-url('Ellipse01-400.svg');
+      }
+      &.Ellipse02-400 {
+        background-image: image-url('Ellipse02-400.svg');
+      }
+      &.Ellipse03-400 {
+        background-image: image-url('Ellipse03-400.svg');
+      }
+      &.Ellipse04-400 {
+        background-image: image-url('Ellipse04-400.svg');
+      }
+      &.Ellipse05-400 {
+        background-image: image-url('Ellipse05-400.svg');
+      }
+      &.Ellipse06-400 {
+        background-image: image-url('Ellipse06-400.svg');
+      }
+
+      &.Firework00-400 {
+        background-image: image-url('Firework00-400.svg');
+      }
+      &.Firework01-400 {
+        background-image: image-url('Firework01-400.svg');
+      }
+      &.Firework02-400 {
+        background-image: image-url('Firework02-400.svg');
+      }
+      &.Firework03-400 {
+        background-image: image-url('Firework03-400.svg');
+      }
+      &.Firework04-400 {
+        background-image: image-url('Firework04-400.svg');
+      }
+      &.Firework05-400 {
+        background-image: image-url('Firework05-400.svg');
+      }
+      &.Firework06-400 {
+        background-image: image-url('Firework06-400.svg');
+      }
+      &.Firework07-400 {
+        background-image: image-url('Firework07-400.svg');
+      }
+
+      &.start01-400 {
+        background-image: image-url('Star01-400.svg');
+      }
+      &.start02-400 {
+        background-image: image-url('Star02-400.svg');
+      }
+      &.start03-400 {
+        background-image: image-url('Star03-400.svg');
+      }
+      &.start04-400 {
+        background-image: image-url('Star04-400.svg');
+      }
+      &.start05-400 {
+        background-image: image-url('Star05-400.svg');
+      }
+
+      &.Vector107-400 {
+        background-image: image-url('Vector107-400.svg');
+      }
+
+      // 700
+      &.Bubble01-700 {
+        background-image: image-url('Bubble01-700.svg');
+      }
+
+      &.Bubble02-700 {
+        background-image: image-url('Bubble02-700.svg');
+      }
+
+      &.Ellipse01-700 {
+        background-image: image-url('Ellipse01-700.svg');
+      }
+      &.Ellipse02-700 {
+        background-image: image-url('Ellipse02-700.svg');
+      }
+      &.Ellipse03-700 {
+        background-image: image-url('Ellipse03-700.svg');
+      }
+      &.Ellipse04-700 {
+        background-image: image-url('Ellipse04-700.svg');
+      }
+      &.Ellipse05-700 {
+        background-image: image-url('Ellipse05-700.svg');
+      }
+      &.Ellipse06-700 {
+        background-image: image-url('Ellipse06-700.svg');
+      }
+
+      &.Firework00-700 {
+        background-image: image-url('Firework00-700.svg');
+      }
+      &.Firework01-700 {
+        background-image: image-url('Firework01-700.svg');
+      }
+      &.Firework02-700 {
+        background-image: image-url('Firework02-700.svg');
+      }
+      &.Firework03-700 {
+        background-image: image-url('Firework03-700.svg');
+      }
+      &.Firework04-700 {
+        background-image: image-url('Firework04-700.svg');
+      }
+      &.Firework05-700 {
+        background-image: image-url('Firework05-700.svg');
+      }
+      &.Firework06-700 {
+        background-image: image-url('Firework06-700.svg');
+      }
+      &.Firework07-700 {
+        background-image: image-url('Firework07-700.svg');
+      }
+
+      &.start01-700 {
+        background-image: image-url('Star01-700.svg');
+      }
+      &.start02-700 {
+        background-image: image-url('Star02-700.svg');
+      }
+      &.start03-700 {
+        background-image: image-url('Star03-700.svg');
+      }
+      &.start04-700 {
+        background-image: image-url('Star04-700.svg');
+      }
+      &.start05-700 {
+        background-image: image-url('Star05-700.svg');
+      }
+
+      &.Vector107-700 {
+        background-image: image-url('Vector107-700.svg');
+      }
+
+    }
+
+    &.back-01 {
+      background-color: #3A3AB7;
+
+      .textWrapper {
+        .text {
+          text-align: center;
+        }
+      }
+    }
+
+    &.back-02 {
+      background-color: #3B5CD7;
+
+      .textWrapper {
+        .text {
+          text-align: center;
+        }
+      }
+    }
+
+    &.back-03 {
+      background-color: #3A6FEA;
+    }
+
+    &.back-04 {
+      background-color: #3982FF;
+    }
+
+    &.back-05 {
+      background-color: #3490FF;
+    }
+
+    &.back-06 {
+      background-color: #46A1FF;
+    }
+    &.back-07 {
+      background-color: #65B2FF;
+    }
+    &.back-08 {
+      background-image: image-url('Frame4.svg');
+    }
+    &.back-09 {
+      background-image: image-url('Frame5.svg');
+    }
+    &.back-10 {
+      background-image: image-url('Frame6.svg');
+    }
+    &.back-11 {
+      background-image: image-url('Frame7.svg');
+    }
+    &.back-12 {
+      background-image: image-url('Frame8.svg');
+    }
+    &.back-13 {
+      background-image: image-url('Frame9.svg');
+    }
+    &.back-14 {
+      background-image: image-url('Frame10.svg');
+    }
+    &.back-15 {
+      background-image: image-url('Frame11.svg');
+    }
+    &.back-16 {
+      background-image: image-url('Frame12.svg');
+    }
+    &.back-17 {
+      background-image: image-url('Frame13.svg');
+    }
+    &.back-18 {
+      background-image: image-url('Frame14.svg');
+    }
+    &.back-19 {
+      background-image: image-url('Frame15.svg');
+    }
+    &.back-20 {
+      background-image: image-url('Frame16.svg');
+    }
+    &.back-21 {
+      background-image: image-url('Frame17.svg');
+    }
+    &.back-22 {
+      background-image: image-url('Frame18.svg');
+    }
+    &.back-23 {
+      background-image: image-url('Frame19.svg');
+    }
+
+  }
+
+  .textWrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    top: 5%;
+    z-index: 10;
+
+    &.top {
+      justify-content: flex-start;
+    }
+
+    // &.center {
+    //   justify-content: center;
+    // }
+
+    &.bottom {
+      justify-content: flex-end;
+    }
+
+    .text {
+      position: relative;
+      color: white;
+      width: 99%;
+      left: 2%;
+      // top: 2%;
+
+      font-family: ProximaNova-Regular;
+      font-size: 65px;
+      line-height: 100%;
+      letter-spacing: -2px;
+
+    }
+
+    .text:focus {
+      outline-color: gray;
+      opacity: 0.5;
+      outline-width: medium;
+      outline-width: 1px;
+    }
+  }
+}
